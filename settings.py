@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yaxaws_django',
-        'USER': 'root',
-        'PASSWORD': '03081998pantter',
+        'NAME': 'yaxaws',
+        'USER': 'user',
+        'PASSWORD': 'pass',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
