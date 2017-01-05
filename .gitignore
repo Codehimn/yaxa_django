@@ -1,6 +1,21 @@
-# Windows image file caches
+
+# Created by https://www.gitignore.io/api/django,windows,linux
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+venv
+
+### Windows ###
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -17,31 +32,20 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
 
-# OSX
-# =========================
+### Linux ###
+*~
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# Thumbnails
-._*
+# KDE directory preferences
+.directory
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# End of https://www.gitignore.io/api/django,windows,linux
