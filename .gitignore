@@ -8,8 +8,9 @@
 __pycache__/
 local_settings.py
 db.sqlite3
-media
-venv
+media/
+venv/
+!src/
 
 ### Windows ###
 # Windows thumbnail cache files
