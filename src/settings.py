@@ -68,8 +68,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'yaxa_django',
-        'USER': 'root',
-        'PASSWORD': '03081998pantter',
+        'USER': 'user',
+        'PASSWORD': 'pass',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
